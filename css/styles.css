@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .header{
     list-style-type: none;
     background-color: #457b9d;
@@ -22,8 +27,11 @@
     background-color: #1d3557;
 }
 
-h1{
+.titulo{
     color: red;
+    text-align: center;
+    font-size: 40px;
+    margin: 20px;
 }
 
 table{
@@ -78,3 +86,12 @@ ol li::before{
 ol li::after{
     content: ' lol';
 }
+
+div{
+    border: 10px solid red;
+    padding: 10px 30px;
+    background-color: #a8dadc;
+    text-align: center;
+    margin-top: 20px;
+}
+
